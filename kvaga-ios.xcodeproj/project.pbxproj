@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A17A58728EF4A9800975418 /* Elegant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17A58628EF4A9800975418 /* Elegant.swift */; };
+		3A17A58928EF4CC900975418 /* ElegantCalendar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A17A58828EF4CC900975418 /* ElegantCalendar.xcassets */; };
+		3A17A58D28EF519C00975418 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17A58C28EF519C00975418 /* TrackerView.swift */; };
+		3A44BADC28EC72DA00CCC3F6 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44BADB28EC72DA00CCC3F6 /* CalendarView.swift */; };
+		3A693CB128EEB1F70078F5A3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A693CB028EEB1F70078F5A3 /* ProfileView.swift */; };
+		3A693CB528EEB3370078F5A3 /* FullNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A693CB428EEB3370078F5A3 /* FullNoteView.swift */; };
+		3AABCAD528E96120001A6B24 /* FeedNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AABCAD428E96120001A6B24 /* FeedNoteView.swift */; };
+		3AABCAD728E96144001A6B24 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AABCAD628E96144001A6B24 /* FeedViewModel.swift */; };
+		3AABCAD928E96862001A6B24 /* CreateFeedNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AABCAD828E96862001A6B24 /* CreateFeedNoteView.swift */; };
+		3AABCADB28E973A2001A6B24 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AABCADA28E973A2001A6B24 /* MapView.swift */; };
 		3AEA576428E8812300AB4D58 /* kvaga_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA576328E8812300AB4D58 /* kvaga_iosApp.swift */; };
 		3AEA576628E8812300AB4D58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA576528E8812300AB4D58 /* ContentView.swift */; };
 		3AEA576828E8812400AB4D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA576728E8812400AB4D58 /* Assets.xcassets */; };
 		3AEA576B28E8812400AB4D58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA576A28E8812400AB4D58 /* Preview Assets.xcassets */; };
-		3AEA577528E8812400AB4D58 /* kvaga_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA577428E8812400AB4D58 /* kvaga_iosTests.swift */; };
-		3AEA577F28E8812400AB4D58 /* kvaga_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA577E28E8812400AB4D58 /* kvaga_iosUITests.swift */; };
-		3AEA578128E8812400AB4D58 /* kvaga_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA578028E8812400AB4D58 /* kvaga_iosUITestsLaunchTests.swift */; };
+		3AEA578F28E883AF00AB4D58 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA578E28E883AF00AB4D58 /* FeedView.swift */; };
+		3AEA579228E88E4500AB4D58 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA579128E88E4500AB4D58 /* CalendarViewModel.swift */; };
+		B9D3E3C665F91017A4A2996C /* Pods_kvaga_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B63EFF31651B7E8D9626AF /* Pods_kvaga_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +44,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A17A58628EF4A9800975418 /* Elegant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elegant.swift; sourceTree = "<group>"; };
+		3A17A58828EF4CC900975418 /* ElegantCalendar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ElegantCalendar.xcassets; sourceTree = "<group>"; };
+		3A17A58C28EF519C00975418 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
+		3A44BADB28EC72DA00CCC3F6 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3A693CB028EEB1F70078F5A3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3A693CB428EEB3370078F5A3 /* FullNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNoteView.swift; sourceTree = "<group>"; };
+		3AABCAD428E96120001A6B24 /* FeedNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedNoteView.swift; sourceTree = "<group>"; };
+		3AABCAD628E96144001A6B24 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		3AABCAD828E96862001A6B24 /* CreateFeedNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFeedNoteView.swift; sourceTree = "<group>"; };
+		3AABCADA28E973A2001A6B24 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3AEA576028E8812300AB4D58 /* kvaga-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kvaga-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEA576328E8812300AB4D58 /* kvaga_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvaga_iosApp.swift; sourceTree = "<group>"; };
 		3AEA576528E8812300AB4D58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AEA576728E8812400AB4D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AEA576A28E8812400AB4D58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3AEA577028E8812400AB4D58 /* kvaga-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kvaga-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AEA577428E8812400AB4D58 /* kvaga_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvaga_iosTests.swift; sourceTree = "<group>"; };
 		3AEA577A28E8812400AB4D58 /* kvaga-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kvaga-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AEA577E28E8812400AB4D58 /* kvaga_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvaga_iosUITests.swift; sourceTree = "<group>"; };
-		3AEA578028E8812400AB4D58 /* kvaga_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kvaga_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AEA578E28E883AF00AB4D58 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		3AEA579128E88E4500AB4D58 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		8B9EEE55B28433B233B7EDC6 /* Pods-kvaga-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kvaga-ios.release.xcconfig"; path = "Target Support Files/Pods-kvaga-ios/Pods-kvaga-ios.release.xcconfig"; sourceTree = "<group>"; };
+		A4B63EFF31651B7E8D9626AF /* Pods_kvaga_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kvaga_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C984B018F4DE8FF6B4C727A7 /* Pods-kvaga-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kvaga-ios.debug.xcconfig"; path = "Target Support Files/Pods-kvaga-ios/Pods-kvaga-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D3E3C665F91017A4A2996C /* Pods_kvaga_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +94,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2C34CEFEF72540C79BDF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4B63EFF31651B7E8D9626AF /* Pods_kvaga_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A17A58528EF4A8600975418 /* Elegant */ = {
+			isa = PBXGroup;
+			children = (
+				3A17A58628EF4A9800975418 /* Elegant.swift */,
+			);
+			path = Elegant;
+			sourceTree = "<group>";
+		};
+		3A17A58B28EF518600975418 /* TrackerView */ = {
+			isa = PBXGroup;
+			children = (
+				3A17A58C28EF519C00975418 /* TrackerView.swift */,
+			);
+			path = TrackerView;
+			sourceTree = "<group>";
+		};
+		3A693CB328EEB31C0078F5A3 /* FullNoteView */ = {
+			isa = PBXGroup;
+			children = (
+				3A693CB428EEB3370078F5A3 /* FullNoteView.swift */,
+			);
+			path = FullNoteView;
+			sourceTree = "<group>";
+		};
+		3AABCAD128E9608C001A6B24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AEA576728E8812400AB4D58 /* Assets.xcassets */,
+				3AEA576928E8812400AB4D58 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3AABCAD228E960F2001A6B24 /* MapModule */ = {
+			isa = PBXGroup;
+			children = (
+				3AABCADA28E973A2001A6B24 /* MapView.swift */,
+			);
+			path = MapModule;
+			sourceTree = "<group>";
+		};
+		3AABCAD328E960FC001A6B24 /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				3A693CB028EEB1F70078F5A3 /* ProfileView.swift */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
 		3AEA575728E8812300AB4D58 = {
 			isa = PBXGroup;
 			children = (
 				3AEA576228E8812300AB4D58 /* kvaga-ios */,
-				3AEA577328E8812400AB4D58 /* kvaga-iosTests */,
-				3AEA577D28E8812400AB4D58 /* kvaga-iosUITests */,
 				3AEA576128E8812300AB4D58 /* Products */,
+				DA6019D395858B29A73F76A7 /* Pods */,
+				0E2C34CEFEF72540C79BDF67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +174,17 @@
 		3AEA576228E8812300AB4D58 /* kvaga-ios */ = {
 			isa = PBXGroup;
 			children = (
-				3AEA576328E8812300AB4D58 /* kvaga_iosApp.swift */,
+				3A17A58B28EF518600975418 /* TrackerView */,
+				3A17A58828EF4CC900975418 /* ElegantCalendar.xcassets */,
+				3A17A58528EF4A8600975418 /* Elegant */,
 				3AEA576528E8812300AB4D58 /* ContentView.swift */,
-				3AEA576728E8812400AB4D58 /* Assets.xcassets */,
-				3AEA576928E8812400AB4D58 /* Preview Content */,
+				3AEA576328E8812300AB4D58 /* kvaga_iosApp.swift */,
+				3AEA578D28E8839900AB4D58 /* FeedModule */,
+				3AABCAD228E960F2001A6B24 /* MapModule */,
+				3AEA579028E88E2C00AB4D58 /* CalendarModule */,
+				3A693CB328EEB31C0078F5A3 /* FullNoteView */,
+				3AABCAD328E960FC001A6B24 /* ProfileModule */,
+				3AABCAD128E9608C001A6B24 /* Resources */,
 			);
 			path = "kvaga-ios";
 			sourceTree = "<group>";
@@ -110,21 +197,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3AEA577328E8812400AB4D58 /* kvaga-iosTests */ = {
+		3AEA578D28E8839900AB4D58 /* FeedModule */ = {
 			isa = PBXGroup;
 			children = (
-				3AEA577428E8812400AB4D58 /* kvaga_iosTests.swift */,
+				3AEA578E28E883AF00AB4D58 /* FeedView.swift */,
+				3AABCAD428E96120001A6B24 /* FeedNoteView.swift */,
+				3AABCAD628E96144001A6B24 /* FeedViewModel.swift */,
+				3AABCAD828E96862001A6B24 /* CreateFeedNoteView.swift */,
 			);
-			path = "kvaga-iosTests";
+			path = FeedModule;
 			sourceTree = "<group>";
 		};
-		3AEA577D28E8812400AB4D58 /* kvaga-iosUITests */ = {
+		3AEA579028E88E2C00AB4D58 /* CalendarModule */ = {
 			isa = PBXGroup;
 			children = (
-				3AEA577E28E8812400AB4D58 /* kvaga_iosUITests.swift */,
-				3AEA578028E8812400AB4D58 /* kvaga_iosUITestsLaunchTests.swift */,
+				3AEA579128E88E4500AB4D58 /* CalendarViewModel.swift */,
+				3A44BADB28EC72DA00CCC3F6 /* CalendarView.swift */,
 			);
-			path = "kvaga-iosUITests";
+			path = CalendarModule;
+			sourceTree = "<group>";
+		};
+		DA6019D395858B29A73F76A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C984B018F4DE8FF6B4C727A7 /* Pods-kvaga-ios.debug.xcconfig */,
+				8B9EEE55B28433B233B7EDC6 /* Pods-kvaga-ios.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,15 +233,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AEA578428E8812400AB4D58 /* Build configuration list for PBXNativeTarget "kvaga-ios" */;
 			buildPhases = (
+				A4733636E913283587A3C54D /* [CP] Check Pods Manifest.lock */,
 				3AEA575C28E8812300AB4D58 /* Sources */,
 				3AEA575D28E8812300AB4D58 /* Frameworks */,
 				3AEA575E28E8812300AB4D58 /* Resources */,
+				C113577B775F1BAD722185C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "kvaga-ios";
+			packageProductDependencies = (
+			);
 			productName = "kvaga-ios";
 			productReference = 3AEA576028E8812300AB4D58 /* kvaga-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +318,8 @@
 				Base,
 			);
 			mainGroup = 3AEA575728E8812300AB4D58;
+			packageReferences = (
+			);
 			productRefGroup = 3AEA576128E8812300AB4D58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A17A58928EF4CC900975418 /* ElegantCalendar.xcassets in Resources */,
 				3AEA576B28E8812400AB4D58 /* Preview Assets.xcassets in Resources */,
 				3AEA576828E8812400AB4D58 /* Assets.xcassets in Resources */,
 			);
@@ -252,12 +358,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A4733636E913283587A3C54D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kvaga-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C113577B775F1BAD722185C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kvaga-ios/Pods-kvaga-ios-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kvaga-ios/Pods-kvaga-ios-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kvaga-ios/Pods-kvaga-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AEA575C28E8812300AB4D58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEA579228E88E4500AB4D58 /* CalendarViewModel.swift in Sources */,
+				3A693CB528EEB3370078F5A3 /* FullNoteView.swift in Sources */,
+				3AABCADB28E973A2001A6B24 /* MapView.swift in Sources */,
+				3A693CB128EEB1F70078F5A3 /* ProfileView.swift in Sources */,
+				3A17A58728EF4A9800975418 /* Elegant.swift in Sources */,
 				3AEA576628E8812300AB4D58 /* ContentView.swift in Sources */,
+				3A17A58D28EF519C00975418 /* TrackerView.swift in Sources */,
+				3AABCAD728E96144001A6B24 /* FeedViewModel.swift in Sources */,
+				3AABCAD928E96862001A6B24 /* CreateFeedNoteView.swift in Sources */,
+				3A44BADC28EC72DA00CCC3F6 /* CalendarView.swift in Sources */,
+				3AABCAD528E96120001A6B24 /* FeedNoteView.swift in Sources */,
+				3AEA578F28E883AF00AB4D58 /* FeedView.swift in Sources */,
 				3AEA576428E8812300AB4D58 /* kvaga_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +425,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AEA577528E8812400AB4D58 /* kvaga_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +432,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AEA577F28E8812400AB4D58 /* kvaga_iosUITests.swift in Sources */,
-				3AEA578128E8812400AB4D58 /* kvaga_iosUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,15 +567,17 @@
 		};
 		3AEA578528E8812400AB4D58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C984B018F4DE8FF6B4C727A7 /* Pods-kvaga-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"kvaga-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"kvaga-ios/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = WM98BXMW58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "геолокацию дай, педик";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,15 +598,17 @@
 		};
 		3AEA578628E8812400AB4D58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9EEE55B28433B233B7EDC6 /* Pods-kvaga-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"kvaga-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"kvaga-ios/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = WM98BXMW58;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "геолокацию дай, педик";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
