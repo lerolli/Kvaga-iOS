@@ -13,27 +13,30 @@ struct ContentView: View {
         TabView {
            FeedView()
              .tabItem {
-                Image(systemName: "newspaper.fill")
+                Image("feed")
                 Text("Лента")
               }
-           MapView()
+           CalendarView()
              .tabItem {
-                Image(systemName: "mappin.circle.fill")
+                Image("101")
+                     .frame(width: 30, height: 30)
                 Text("Карта")
               }
             CalendarView()
                 .tabItem {
-                    Image(systemName: "calendar")
+                    Image("calendar")
+                        .resizable()
+                        .frame(width: 30, height: 30)
                     Text("Мероприятия")
                 }
             TrackerView()
                 .tabItem {
-                    Image(systemName: "checkmark.circle")
+                    Image("todo")
                     Text("Привычки")
                 }
             ProfileView(notes: notes)
                 .tabItem {
-                    Image(systemName: "person.crop.circle.fill")
+                    Image("profile")
                     Text("Профиль")
                 }
         }

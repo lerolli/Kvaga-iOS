@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>kvaga-ios.xcscheme_^#shared#^_</key>
+		<key>Kvaga debug.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Kvaga.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>KvagaTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3AEA575F28E8812300AB4D58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AEA576F28E8812400AB4D58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AEA577928E8812400AB4D58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

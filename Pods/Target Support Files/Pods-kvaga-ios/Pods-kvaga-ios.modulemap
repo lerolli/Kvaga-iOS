@@ -1,0 +1,6 @@
+framework module Pods_kvaga_ios {
+  umbrella header "Pods-kvaga-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
